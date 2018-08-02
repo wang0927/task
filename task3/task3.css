@@ -17,8 +17,8 @@ body{
 
 .ptteng{
     text-align: center;
-    margin-top: 10%; 
-    margin-bottom: 10%
+    margin-top: 100px; 
+    margin-bottom: 100px;
 }
 .picture-two{
     height: 35x;
@@ -37,7 +37,7 @@ body{
 .people{
     float: left;
     color: white;
-    margin:10% 0% 5% 10%;
+    margin:20px 0px 20px 100px;
     text-align: center;
 }
 
@@ -50,7 +50,7 @@ body{
 .ptt{
   float: right;;
     color: white;
-    margin: 10% 10% 5% 0%;
+    margin: 20px 100px 20px 0px;
     text-align: center;
    
 }
