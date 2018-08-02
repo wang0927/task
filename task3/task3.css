@@ -35,7 +35,7 @@ body{
 .people{
     float: left;
     color: white;
-    margin:20px 0px 20px 100px;
+    margin:20px 0px 20px 10%;
     text-align: center;
 }
 
@@ -48,7 +48,7 @@ body{
 .ptt{
   float: right;;
     color: white;
-    margin: 20px 100px 20px 0px;
+    margin: 20px 10% 20px 0px;
     text-align: center;
    
 }
