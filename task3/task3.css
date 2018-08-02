@@ -28,9 +28,7 @@ body{
 .txt{
     text-align: justify;
     color: white;
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-bottom: 10%;
+    padding: 20px 50px 50px 50px;
    
 
 }
