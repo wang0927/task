@@ -11,9 +11,22 @@
 <body>
     <div class="header">
      <samp class="register">注册</samp>
-      <samp class="Sign-in">登录</samp>
+    <samp class="Sign-in">登陆</samp>
      <samp class="close">关闭</samp>
     </div>
-    
+    <div class="box">
+        <img class="iphone" src="iphone.png">
+       <input  class="input-one" type="text" placeholder="请输入手机号" 
+       onkeyup="value=value.replace(/[^\d]/g,'')" maxlength="11">  
+    </div>
+    <div class="box">
+        <img class="locked" src="locked.png">  
+       <input class="input-one" type="password" name="password" placeholder="请输入密码">
+    </div>
+    <div class="bottom">
+        <samp class="Sign-in">登陆</samp>
+    </div>
+     <a class="last" href="file:///Users/ww/Desktop/task/task4/task4.html">忘记密码？
+     </a>  
 </body>
 </html>

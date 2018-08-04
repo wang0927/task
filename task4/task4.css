@@ -4,28 +4,73 @@ body{
 
 }
 .header{
+    position: relative;
     background-color: #5fc0cd;
     text-align: center;
-    padding: 20px;
+    line-height: 64px;
+    width: 100%;
 }
 .register{
     color: white;
-   float: left;
-  padding-left: 5px;
-  padding-top: 3px;
-}
+  position: absolute;
+  left: 16px;
+  height: 34px;
+  font-size: 15px;
   
+}
 .Sign-in{
     color: white;
-    text-align: center;
-    
-    
+    font-size: 16px;
 }
 .close{
     color:white;
-    float: right;
-    padding-right: 5px;
-    padding-top: 3px;
-    
-
+    position: absolute;
+   font-size: 15px;
+   right: 15px;
+   height: 34px;
 }
+.iphone{
+    position: absolute;
+    top:50%;
+    height: 20px;
+    width: 15px;   
+    margin: -10px 22px 0px 21px;
+   
+}
+.locked{
+    position: absolute;
+    top: 50%;
+    height: 20px;
+    width: 15px;
+    margin: -10px 22px 0px 21px;
+    
+}
+.box{
+    position: relative;
+    background-color: #ffffff;
+    line-height: 50px;
+    margin-top: 8px;  
+    
+}
+.bottom{
+    margin-top: 35px;
+    background-color: #5fc0cd;
+    width: 100%;
+    line-height: 50px;
+    text-align: center;
+    letter-spacing:10px;
+}
+.last{
+   color:#5fc0cd;
+   float: right;
+   text-decoration: none；
+}
+.input-one{
+    width: 70%;
+    height: 25px;
+    border:none;
+    border-left: 1px solid #eaedee;
+    margin-left: 58px;
+    padding-left: 16px;
+}
+
