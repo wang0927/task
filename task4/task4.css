@@ -7,26 +7,27 @@ body{
     position: relative;
     background-color: #5fc0cd;
     text-align: center;
-    line-height: 64px;
+    height: 64px;
     width: 100%;
 }
 .register{
     color: white;
   position: absolute;
   left: 16px;
-  height: 34px;
+  line-height: 64px;
   font-size: 15px;
 }
 .Sign-in{
     color: white;
     font-size: 16px;
+    line-height: 64px;
 }
 .close{
     color:white;
     position: absolute;
    font-size: 15px;
    right: 15px;
-   height: 34px;
+   line-height: 64px;
 }
 .iphone{
     position: absolute;
