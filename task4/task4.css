@@ -51,14 +51,21 @@ body{
     width: 15px;
     margin: -10px 22px 0px 21px; 
 }
-.shu::after {
+/*.shu::after {
     content: "";
     position: absolute;
     height: 20px;
     border: 1px solid #E1E5E7;
     margin:15px 0 0 58px;
-}
+}*/
 
+.shu{
+    position: absolute;
+    width: 1px;
+    height: 20px;
+    background-color: #E1E5E7;
+    margin:15px 0 0 58px;
+}
 .input-one{
     width: 70%;
     line-height: 50px;
