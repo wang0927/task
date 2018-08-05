@@ -51,7 +51,7 @@ body{
     width: 15px;
     margin: -10px 22px 0px 21px; 
 }
-span::after {
+.shu::after {
     content: "";
     position: absolute;
     height: 20px;
