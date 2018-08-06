@@ -11,19 +11,19 @@ body{
     width: 100%;
 }
 .register{
-    color: white;
+    color: #ffffff;
   position: absolute;
   left: 16px;
   line-height: 64px;
   font-size: 15px;
 }
 .Sign-in{
-    color: white;
+    color: #ffffff;
     font-size: 16px;
     line-height: 64px;
 }
 .close{
-    color:white;
+    color:#ffffff;
     position: absolute;
    font-size: 15px;
    right: 15px;
@@ -73,6 +73,8 @@ body{
     margin-left: 58px;
     padding-left: 16px;
     outline: none;
+    
+   
 }
 .bottom{
     background-color: #5fc0cd;
