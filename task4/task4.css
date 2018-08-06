@@ -95,7 +95,10 @@ body{
    text-decoration:none;
    margin-right: 10px;
    margin-top: 10px;
-  
+}
+input::-webkit-input-placeholder {
+
+color: #E1E5E7;
 }
 
 
