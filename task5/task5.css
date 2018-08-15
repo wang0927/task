@@ -1,0 +1,199 @@
+body{
+    margin: 0;
+}
+header{
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: #5fc0cd; 
+    width: 100%;  
+    line-height: 64px;
+    text-align: center;
+    z-index: 3;
+  
+}
+.photo1{
+   position: absolute;
+    width: 10px;
+    height: 15px;
+    top: 50%;
+    margin-top: -7.5px;
+    left:20px;
+   
+} 
+
+header span{
+    font-size: 18px;
+    color:#ffffff;
+   line-height: 64px;
+   
+}
+main{
+   position: relative;
+    margin-top: 64px;
+    margin-bottom: 90px;
+    width: 100%;  
+}
+.photo2{
+    position: relative;
+    background: url(../task5/img/beijing.png) no-repeat;
+    background-size: cover;
+    height: 163px;
+    width: 100%;
+   
+}
+.photo3{
+    position: absolute;
+    left: 16px;
+    height: 84px;
+    width: 84px;
+    top:50%;
+    margin-top: -42px;
+}
+.box{
+    position: absolute;
+    left: 120px;
+    top: 62px; 
+    width: 96px; 
+    height: 40px;
+}
+.photo4{ 
+    margin-top: 4px;
+    width: 10px;
+}
+.spam1{  
+    color: #ffffff;
+    font-size: 15px;
+}
+.spam2{ 
+    color: #ffffff;
+    font-size: 10px;  
+}
+ul{
+    padding: 0;
+}
+li {
+    list-style:none;
+}
+.box1{ 
+    font-size: 16px;
+    display: block;
+    line-height: 50px;
+    border-bottom: 1px solid  #E1E5E7;
+}
+strong::before{
+    content: "";
+    position: absolute;
+    height: 15px;
+    border-left: 2px solid #5fc0cd;
+    margin:17px 0 0 -19px;
+}
+.box2{
+    font-size: 16px;
+    display: block;
+    line-height: 50px;
+    border-bottom: 1px solid  #E1E5E7;
+    margin-left: 15px;
+}
+
+ul li.box2::before{
+    content: "";
+    position: absolute;
+    height: 15px;
+    border-left: 2px solid #e1e5e7;
+    margin:18px 0 0 75px;
+}
+.box3{
+    margin-left: 38px;  
+ }
+
+.box4{
+    color:#999999;
+}
+.box5{
+    margin-left: 20px;
+    color: #333333;
+}
+.box6{
+    margin-left: 20px;
+    color: red;
+}
+.box7{
+    font-size: 14px;
+    margin: 15px 15px 15px 100px ;
+    display: inline-block;
+}
+.box8{
+ position: absolute;
+ top: 50%;
+ margin-top: -10px;
+ margin-left: 15px;
+ color:#999999;  
+}
+.box9{
+    position: relative;
+   font-size: 16px;
+   display:block ;
+   border-bottom: 1px solid  #E1E5E7;
+}
+.box8::before{
+    content: "";
+    position: absolute;
+    height: 15px;
+    border-left: 2px solid #e1e5e7;
+    margin:5px 0 0 75px;
+}
+.photo{
+   width: 10px;
+   height: 10px;  
+
+}
+.photoone{
+    width: 10px;
+    height: 10px;  
+ margin-left: 15px; 
+ }
+.box10{
+    font-size: 16px;
+    display: block;
+    line-height: 50px;
+    border-bottom: 1px solid  #E1E5E7;
+    margin-left: 15px;
+}
+ul li.box10::before{
+    content: "";
+    position: absolute;
+    height: 15px;
+    border-left: 2px solid #e1e5e7;
+    margin:18px 0 0 58px;
+}
+footer{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    padding: 0;
+    
+}
+.botton1{
+    font-size: 20px;
+    color: #5fc0cd;
+    background-color: #ffffff;
+    width:40%;
+    border: 1px solid #5fc0cd;
+    border-radius: 7px;
+    line-height: 44px;
+    margin-left: 4%;
+    margin-right: 5%;
+}
+.botton2{
+    
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #5fc0cd;
+    width:40%;
+    border: 1px solid #ffffff;
+    border-radius: 7px; 
+    line-height: 44px;
+    margin-left: 5%;
+    margin-right: 4%;
+}
