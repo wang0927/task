@@ -12,10 +12,10 @@ header{
     z-index: 3;
   
 }
-.photo1{
+.back{
    position: absolute;
     width: 10px;
-    height: 15px;
+    height: 18px;
     top: 50%;
     margin-top: -7.5px;
     left:20px;
@@ -34,7 +34,7 @@ main{
     margin-bottom: 90px;
     width: 100%;  
 }
-.photo2{
+.backdrop{
     position: relative;
     background: url(../task5/img/beijing.png) no-repeat;
     background-size: cover;
@@ -42,7 +42,7 @@ main{
     width: 100%;
    
 }
-.photo3{
+.portrait{
     position: absolute;
     left: 16px;
     height: 84px;
@@ -50,22 +50,22 @@ main{
     top:50%;
     margin-top: -42px;
 }
-.box{
+.intro{
     position: absolute;
     left: 120px;
     top: 62px; 
     width: 100px; 
     height: 40px;
 }
-.photo4{ 
+.location{ 
     margin-top: 4px;
     width: 8px;
 }
-.spam1{  
+.name{  
     color: #ffffff;
     font-size: 15px;
 }
-.spam2{ 
+.address{ 
     color: #ffffff;
     font-size: 12px;  
 }
@@ -75,7 +75,7 @@ ul{
 li {
     list-style:none;
 }
-.box1{ 
+.major{ 
     font-size: 16px;
     display: block;
     line-height: 50px;
@@ -88,94 +88,94 @@ strong::before{
     border-left: 2px solid #5fc0cd;
     margin:17px 0 0 -19px;
 }
-.box2{
+ul li.date::before{
+    content: "";
+    position: absolute;
+    height: 15px;
+    border-left: 2px solid #e1e5e7;
+    margin:18px 0 0 90px;
+}
+.skill{
+    margin-left: 38px;  
+ }
+ .condition{
     font-size: 16px;
     display: block;
     line-height: 50px;
     border-bottom: 1px solid  #E1E5E7;
     margin-left: 15px;
 }
-
-ul li.box2::before{
+ul li.condition::before{
     content: "";
     position: absolute;
     height: 15px;
     border-left: 2px solid #e1e5e7;
     margin:18px 0 0 75px;
 }
-.box3{
-    margin-left: 38px;  
+.home{
+    width: 12px;
+    height: 12px;  
+   padding-left: 15px;
  }
-
-.box4{
-    color:#999999;
-}
-.box5{
-    margin-left: 20px;
-    color: #333333;
-}
-.box6{
-    margin-left: 20px;
-    color: red;
-}
-.box7{
-    font-size: 14px;
-    margin: 15px 15px 15px 100px ;
-    display: inline-block;
-}
-.box8{
- position: absolute;
- top: 50%;
- margin-top: -10px;
- margin-left: 15px;
- color:#999999;  
-}
-.box9{
-    position: relative;
-   font-size: 16px;
-   display:block ;
-   border-bottom: 1px solid  #E1E5E7;
-}
-.box8::before{
-    content: "";
-    position: absolute;
-    height: 15px;
-    border-left: 2px solid #e1e5e7;
-    margin:5px 0 0 75px;
-}
-.photo{
-   width: 10px;
-   height: 10px;  
-
-}
-.photoone{
-    width: 10px;
-    height: 10px;  
- margin-left: 15px; 
- }
-.box10{
+ .food{
+     width: 12px;
+     height: 12px;  
+     margin-left: 15px; 
+  }
+ .date{
     font-size: 16px;
     display: block;
     line-height: 50px;
     border-bottom: 1px solid  #E1E5E7;
     margin-left: 15px;
 }
-ul li.box10::before{
+.price{
+    color:#999999;
+    padding-left: 15px;
+}
+.time{
+    margin-left: 20px;
+    color: #333333;
+}
+.money{
+    margin-left: 20px;
+    color: red;
+}
+.experience{
+    font-size: 14px;
+    margin: 15px 15px 15px 115px ;
+    display: inline-block;
+}
+.me{
+ position: absolute;
+ top: 50%;
+ margin-top: -10px;
+ margin-left: 30px;
+ color:#999999;  
+}
+.me::before{
     content: "";
     position: absolute;
     height: 15px;
     border-left: 2px solid #e1e5e7;
-    margin:18px 0 0 58px;
+    margin:5px 0 0 75px;
 }
+.introduce{
+    position: relative;
+   font-size: 16px;
+   display:block ;
+   border-bottom: 1px solid  #E1E5E7;
+}
+
 footer{
     position: fixed;
-    bottom: 0px;
+    bottom: 20px;
     width: 100%;
     padding: 0;
     background-color: #ffffff;
     
 }
-.botton1{
+.message{
     font-size: 20px;
     color: #5fc0cd;
     background-color: #ffffff;
@@ -186,7 +186,7 @@ footer{
     margin-left: 4%;
     margin-right: 5%;
 }
-.botton2{
+.phone{
     
     font-size: 20px;
     color: #ffffff;
