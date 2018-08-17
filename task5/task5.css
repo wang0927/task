@@ -3,7 +3,6 @@ body{
 }
 header{
     position: fixed;
-    left: 0;
     top: 0;
     background-color: #5fc0cd; 
     width: 100%;  
@@ -29,7 +28,7 @@ header span{
 }
 main{
     margin: 64px 0 90px 0;
-    width: 100%;
+   
 }
 .backdrop{
     position: relative;
@@ -164,7 +163,6 @@ footer{
     position: fixed;
     bottom: 0;
     width: 100%;
-    padding: 0;
     background-color: #ffffff;
     padding: 10px 0;
 }
