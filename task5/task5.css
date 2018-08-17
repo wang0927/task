@@ -12,15 +12,14 @@ header{
     z-index: 3;
   
 }
-.back{
+/*.back{
    position: absolute;
     width: 10px;
     height: 18px;
     top: 50%;
     margin-top: -7.5px;
     left:20px;
-   
-} 
+} */
 
 header span{
     font-size: 18px;
@@ -29,9 +28,7 @@ header span{
    
 }
 main{
-   position: relative;
-    margin-top: 64px;
-    margin-bottom: 90px;
+    margin: 64px 0 90px 0;
     width: 100%;  
 }
 .backdrop{
@@ -77,7 +74,6 @@ li {
 }
 .major{ 
     font-size: 16px;
-    display: block;
     line-height: 50px;
     border-bottom: 1px solid  #E1E5E7;
 }
@@ -100,7 +96,6 @@ ul li.date::before{
  }
  .condition{
     font-size: 16px;
-    display: block;
     line-height: 50px;
     border-bottom: 1px solid  #E1E5E7;
     margin-left: 15px;
@@ -124,7 +119,6 @@ ul li.condition::before{
   }
  .date{
     font-size: 16px;
-    display: block;
     line-height: 50px;
     border-bottom: 1px solid  #E1E5E7;
     margin-left: 15px;
@@ -152,6 +146,7 @@ ul li.condition::before{
  margin-top: -10px;
  margin-left: 30px;
  color:#999999;  
+
 }
 .me::before{
     content: "";
@@ -163,17 +158,16 @@ ul li.condition::before{
 .introduce{
     position: relative;
    font-size: 16px;
-   display:block ;
    border-bottom: 1px solid  #E1E5E7;
 }
 
 footer{
     position: fixed;
-    bottom: 20px;
+    bottom: 0;
     width: 100%;
     padding: 0;
     background-color: #ffffff;
-    
+    padding: 10px 0;
 }
 .message{
     font-size: 20px;
@@ -183,8 +177,7 @@ footer{
     border: 1px solid #5fc0cd;
     border-radius: 7px;
     line-height: 44px;
-    margin-left: 4%;
-    margin-right: 5%;
+    margin: 0 5% 0 4%;
 }
 .phone{
     
@@ -195,6 +188,16 @@ footer{
     border: 1px solid #ffffff;
     border-radius: 7px; 
     line-height: 44px;
-    margin-left: 5%;
-    margin-right: 4%;
+    margin: 0 4% 0 5%;
+}
+.back{
+   position: absolute;
+   width: 10px;
+   height: 10px;
+   left: 18px;
+   top: 50%;
+   margin-top: -8.5px;
+   border-left: 2px solid white;
+   border-bottom: 2px solid white;
+   transform: rotate(45deg);
 }
