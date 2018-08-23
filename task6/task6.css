@@ -208,6 +208,8 @@ footer{
     border-radius: .5rem;
     width: .6rem;
     height: .6rem;
+    border: none;
+    outline: none;
     background: #55a8b3;  
 }
 .write::before{
