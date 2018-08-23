@@ -170,6 +170,7 @@ li{
 .address{
     font-size: .13rem;
     margin-left: .16rem;
+    color: #999999;
 }
 .address::before{
     content: "";
@@ -239,6 +240,7 @@ footer{
     border: none;
     outline: none;
     background: #f8fafb;
+    color: #b3b4b4;
 }
 .me::before{
     content: "";
