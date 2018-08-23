@@ -121,6 +121,12 @@ ul{
     border-bottom: 1px solid #e1e5e7;
     line-height: .12rem;
 }
+.deman{
+    height: 1rem;
+    border-bottom: 1px solid #e1e5e7;
+    line-height: .12rem; 
+    margin: 0 0 .8rem -.53rem ;
+}
 li{
     list-style: none;
 }
@@ -128,6 +134,7 @@ li{
     font-size: .2rem;
     letter-spacing: .03rem;
     color: #999999;
+    margin-left: .1rem;
 }
 .date::before{
     content: "";
@@ -135,7 +142,7 @@ li{
     display: inline-block;
     width: 13px;
     height: 12px;
-    margin: 0 .1rem;
+    margin-right: .1rem;
 }
 .price{
     display: flex;
@@ -165,7 +172,6 @@ li{
     width: 10px;
     height: 12px;
     margin-right: .1rem;
-
 }
 .value::after{
     display: inline-block;
@@ -176,6 +182,7 @@ li{
     border-top: 2px solid #5fc0cd;
     border-right: 2px solid #5fc0cd;
     transform: rotate(45deg);
+    white-space: nowrap;
 }
 /* 底部*/
 footer{
@@ -230,6 +237,5 @@ footer{
     display: block;
     background: url(../task6/img/css_sprites.png)no-repeat -8px -154px;
     width: 23px; 
-    height: 21px;  
-    
+    height: 21px;   
 }
