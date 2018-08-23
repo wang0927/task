@@ -29,24 +29,26 @@ a{
 }
 
 .boss {
-    font-size: .15rem;
+    font-size: .17rem;
     color: #ffffff;
     background-color: #55a8b3;
-    border-radius: 7px;
-    padding: .1rem .2rem .1rem .13rem;
+    border-radius: 5px;
+    width: .72rem;
+    height: .35rem;
     border: none;
     outline: none;
 }
 
 .btn {
-    font-size: .15rem;
+    font-size: .17rem;
     color: #5fc0cd;
     background-color: #ffffff;
-    border-radius: 7px;
-    padding: .1rem .2rem .1rem .13rem;
+    border-radius: 5px;
+    width: .72rem;
+    height: .35rem;
     border: none;
     outline: none;
-    margin-left: -.13rem;
+    margin-left: -.03rem;
 }
 
 main {
@@ -70,23 +72,24 @@ main {
     width: 100%;
     justify-content: center;
     align-items: center;
-    font-size: .15rem;
+    font-size: .14rem;
     line-height: .4rem;
+    color: #999999;
 }
 
 .sjx {
     position: absolute;
     right: .05rem;
-    border-left: 5px solid transparent;
-    border-right: 5px solid transparent;
-    border-top: 10px solid #afbac0;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 6px solid #afbac0;
 }
 
 .dropdown-content
   {
     display: none;
     position: absolute;
-    top:.65rem;
+    top:.41rem;
     width: 100%;
     padding: 0;
     background-color: #f9f9f9;
@@ -134,7 +137,7 @@ li{
     font-size: .15rem;
     letter-spacing: .03rem;
     color: #999999;
-    margin-left: .2rem;
+    margin-left: .15rem;
 }
 .date::before{
     content: "";
@@ -142,7 +145,7 @@ li{
     display: inline-block;
     width: 13px;
     height: 12px;
-    margin-right: .1rem;
+    margin-right: .08rem;
 }
 .price{
     display: flex;
@@ -151,22 +154,22 @@ li{
     height: .2rem;
 }
 .year{
-    font-size: .1rem;
-    margin-left: .43rem;
+    font-size: .14rem;
+    margin-left: .36rem;
     line-height: .2rem;
     overflow:hidden; 
     white-space:nowrap; 
     text-overflow:ellipsis;
 }
 .value{
-    font-size: .1rem;
+    font-size: .15rem;
     line-height: .2rem;
     color: #e63b0e;
     white-space: nowrap;
 }
 .address{
-    font-size: .1rem;
-    margin-left: .21rem;
+    font-size: .13rem;
+    margin-left: .16rem;
 }
 .address::before{
     content: "";
@@ -174,16 +177,16 @@ li{
     display: inline-block;
     width: 10px;
     height: 12px;
-    margin-right: .12rem;
+    margin-right: .08rem;
 }
 .value::after{
     display: inline-block;
     content: "";
     width: 10px;
     height: 10px;
-    margin: 0 .12rem;
-    border-top: 2px solid #5fc0cd;
-    border-right: 2px solid #5fc0cd;
+    margin: 0 .15rem 0 0.1rem;
+    border-top: 1.5px solid #5fc0cd;
+    border-right: 1.5px solid #5fc0cd;
     transform: rotate(45deg);
    
 }
@@ -210,7 +213,8 @@ footer{
     display: block;
     background: url(../task6/img/css_sprites.png)no-repeat -10px -114px;
     width: 23px; 
-    height: 20px;   
+    height: 20px;  
+    margin-bottom: .06rem; 
 }
 
 .write{
@@ -228,6 +232,7 @@ footer{
     background: url(../task6/img/css_sprites.png)no-repeat -10px -74px;
     width: 20px; 
     height: 20px;  
+    
 }
 .me{
     font-size: .1rem;
@@ -241,4 +246,5 @@ footer{
     background: url(../task6/img/css_sprites.png)no-repeat -8px -154px;
     width: 23px; 
     height: 21px;   
+    margin-bottom: .05rem;
 }
