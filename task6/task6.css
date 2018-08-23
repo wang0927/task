@@ -61,7 +61,7 @@ main {
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid #e1e5e7;   
-    height: .64rem;
+    height: .4rem;
     z-index: 1;
 }
 .site {
@@ -71,7 +71,7 @@ main {
     justify-content: center;
     align-items: center;
     font-size: .15rem;
-    line-height: .64rem;
+    line-height: .4rem;
 }
 
 .sjx {
@@ -192,7 +192,7 @@ footer{
     position: fixed;
     bottom: 0;
     background: #f8fafb;
-    height: .65rem;
+    height: .5rem;
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -216,8 +216,8 @@ footer{
 .write{
     display: inline-block;
     border-radius: .5rem;
-    width: .6rem;
-    height: .6rem;
+    width: .45rem;
+    height: .45rem;
     border: none;
     outline: none;
     background: #55a8b3;  
