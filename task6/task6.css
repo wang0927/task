@@ -70,7 +70,7 @@ main {
     width: 100%;
     justify-content: center;
     align-items: center;
-    font-size: .2rem;
+    font-size: .15rem;
     line-height: .64rem;
 }
 
@@ -131,10 +131,10 @@ li{
     list-style: none;
 }
 .date{
-    font-size: .2rem;
+    font-size: .15rem;
     letter-spacing: .03rem;
     color: #999999;
-    margin-left: .1rem;
+    margin-left: .2rem;
 }
 .date::before{
     content: "";
@@ -147,23 +147,26 @@ li{
 .price{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     height: .2rem;
 }
 .year{
-    font-size: .18rem;
-    margin-left: .36rem;
+    font-size: .1rem;
+    margin-left: .45rem;
     line-height: .2rem;
     overflow:hidden; 
     white-space:nowrap; 
     text-overflow:ellipsis;
 }
 .value{
-    font-size: .2rem;
+    font-size: .1rem;
+    line-height: .2rem;
     color: #e63b0e;
+    white-space: nowrap;
 }
 .address{
-    font-size: .18rem;
-    margin-left: .1rem;
+    font-size: .1rem;
+    margin-left: .2rem;
 }
 .address::before{
     content: "";
@@ -182,7 +185,7 @@ li{
     border-top: 2px solid #5fc0cd;
     border-right: 2px solid #5fc0cd;
     transform: rotate(45deg);
-    white-space: nowrap;
+   
 }
 /* 底部*/
 footer{
