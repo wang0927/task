@@ -157,3 +157,25 @@ footer{
     outline: none;
     border: none;
 }
+ .last{
+    display: block;
+    text-align: left;
+    background-color: #ffffff;
+}
+.last-days{
+    display: flex;
+    justify-content: space-between;
+}
+.last-day{
+    display:inline-block;
+    margin: .06rem 0 .14rem 0;
+    font-size: .2rem;
+    color: #29BDE0;
+}
+ .last-second{
+    display: flex;
+    justify-content: flex-end;
+    margin: .1rem .3rem 0 0;
+    font-size: .15rem;
+    color:#29BDE0;
+}

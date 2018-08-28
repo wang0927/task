@@ -18,7 +18,8 @@ header{
 .menu-icon{
     position: absolute;
     left: .11rem;
-    bottom: .11rem;
+    top: 50%;
+    margin-top: -.07rem;
     width: .17rem;
     height: .02rem;
     padding: .04rem 0;
