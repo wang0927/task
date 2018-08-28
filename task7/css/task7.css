@@ -64,6 +64,7 @@ p{
     margin: .14rem .55rem .14rem .59rem;
     color: #787878;
     font-size: .13rem;
+    text-align: left;
 }
 p.last{
     margin: .14rem .55rem 0 .59rem;
