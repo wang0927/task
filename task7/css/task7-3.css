@@ -21,18 +21,18 @@ header{
 .box{
     width: .2rem;
     height: .2rem;
+    margin-left: .12rem;
     border: 2px solid #ffffff;
     text-align: center; 
-    margin-left: .12rem;
 }
 .menu-icon{
     display: inline-block;
     width: .17rem;
-	height: .02rem;
+    height: .02rem;
+    padding: .04rem 0;
 	border-top: 2px solid #FFFFFF;
 	border-bottom: 2px solid #FFFFFF;
 	background-color: #FFFFFF;
-    padding: .04rem 0;
     background-clip:content-box;
     
 }
@@ -90,8 +90,8 @@ main{
     width: .26rem;
     height: .26rem;
     border-radius: 50%;
-    background-color: #FBB435;
     margin-right: .1rem;
+    background-color: #FBB435;
     text-align: center;
 }
 .air {
@@ -124,11 +124,11 @@ p{
     margin-top: .22rem;
 }
 .seaman{
-    border: 2px solid #ffffff;
-    background-color: #F5C97B;
     width: 24vw;
     height: 24vw;
     margin:0 4vw 8.3vw 4vw;
+    border: 2px solid #ffffff;
+    background-color: #F5C97B;
 }
 .top{
     display: flex;
@@ -191,16 +191,16 @@ footer{
     left: 0;
     right: 0;
     display: flex;
-    justify-content: center;
     height: .85rem;
+    justify-content: center;
     background: #29BDE0
 }
 footer div{
-    border-top: 1px solid #ffffff;
     width: 90%;
     height: .85rem;
     line-height: .85rem;
     text-align: center;
+    border-top: 1px solid #ffffff;
 }
 button{
     width: 91%;
