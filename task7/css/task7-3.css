@@ -67,7 +67,7 @@ header{
     border-top: 100px solid red;
 }
 main{
-    margin: 0;
+    margin: 0 0 .8rem 0;
     padding: 0;
     background: #29BDE0;
 }
