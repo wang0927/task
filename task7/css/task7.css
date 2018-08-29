@@ -34,17 +34,27 @@ header{
     height: .58rem;
     margin: .62rem .18rem .14rem .18rem;
     line-height: .58rem;
-    border: 1px solid #ffffff;
-    border: none; 
+    border: 2px solid #E7E7E7;
     text-align: center;
     background: #FFFFFF;
     font-size: .18rem;
     color: #9A9A9A;
 }
+.title::after{
+    display: inline-block;
+    float: right;
+    content: "";
+    width: .12rem;
+    height: .12rem;
+    margin: .21rem .07rem 0 0;
+    border-top: .02rem solid #E7E7E7;
+    border-right: .02rem solid #E7E7E7;
+    transform: rotate(45deg);
+}
 .game{
     margin: 0 .18rem;
     background: #FFFFFF;
-    border: none; 
+    border: 2px solid #E7E7E7;
     text-align: center;
 }
 .grab{
