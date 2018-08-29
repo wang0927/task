@@ -41,7 +41,6 @@ header{
     color: #9A9A9A;
 }
 .title::after{
-    display: inline-block;
     float: right;
     content: "";
     width: .12rem;
