@@ -103,11 +103,11 @@ li{
 .triangle-right{
     position: absolute;
     top: .22rem;
-    right: -.23rem;
+    right: -.2rem;
     width: 0px;
     height: 0px;
     border-top: 14px solid transparent;
-    border-left: 20px solid #FBB435;
+    border-left: 14px solid #FBB435;
     border-bottom: 14px solid transparent;
 }
 
