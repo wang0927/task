@@ -35,6 +35,7 @@ header{
     height: .2rem;
     margin-right: .1rem;
 }
+/* 头部结束 */
 main{
     width: 100%;
     margin-top: .48rem;
@@ -123,6 +124,7 @@ li{
     padding-top: .17rem;
     margin-left: -.38rem;
 }
+/* 底部开始 */
 footer{
     position: fixed;
     bottom: 0;

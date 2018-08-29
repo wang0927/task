@@ -58,13 +58,7 @@ header{
     transform: rotate(270deg); 
     display: inline-block; 
 }
-#triangle-down {
-    width: 0;
-    height: 0;
-    border-left: 50px solid transparent;
-    border-right: 50px solid transparent;
-    border-top: 100px solid red;
-}
+/* 内容 */
 main{
     margin: 0 0 .8rem 0;
     padding: 0;
@@ -184,6 +178,7 @@ li{
     display: flex;
     justify-content: space-between;
 }
+/* 底部 */
 footer{
     position: fixed;
     bottom: 0;
