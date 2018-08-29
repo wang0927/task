@@ -209,3 +209,7 @@ button{
     color: #ffffff;
     
 }
+.audio{
+    width: 0;
+    height: 0;
+}
