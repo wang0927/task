@@ -85,6 +85,7 @@ button{
     margin: 0;
     
 }
+
 .one p{
     display: inline-block;
     color: #29b078;
@@ -155,7 +156,7 @@ button{
 table,th,td {
     border: 1px solid #999999;
 }
-th.width1 {
+/* th.width1 {
     width: 40%;
 }
 th.width2 {
@@ -163,7 +164,7 @@ th.width2 {
 }
 th.width3 {
     width: 50%;
-}
+} */
 .forth-line table {
 border: none;
 }
@@ -173,7 +174,6 @@ border: none;
 .forth-line td {
     border: none;
 }
-
 
 td {
     padding: 0;
@@ -243,9 +243,6 @@ table td p {
 }
 
 /* 第三行样式 */
-.third-line td:nth-child(2){
-    
-}
 
 .third-line p {
     font-size: .12rem;
@@ -258,7 +255,6 @@ table td p {
 }
 
 .third-line .tl {
-    margin-right: 4px;
     margin-bottom: 0;
 }
 
