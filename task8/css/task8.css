@@ -15,21 +15,22 @@ header .row{
 }
 .weixin{
     display: inline-block;
-    background: url(../img/head/css_sprites.png) no-repeat -0 -0;
     width: 13px;
     height: 12px;
+    background: url(../img/head/css_sprites.png) no-repeat -0 -0;
+   
 }
 .qq{
     display: inline-block;
-    background: url(../img/head/css_sprites.png) no-repeat -0 -12px;
     width: 13px;
     height: 12px;
+    background: url(../img/head/css_sprites.png) no-repeat -0 -12px; 
 }
 .weibo{
     display: inline-block;
-    background: url(../img/head/css_sprites.png) no-repeat -0 -24px;
     width: 13px;
     height: 12px;
+    background: url(../img/head/css_sprites.png) no-repeat -0 -24px;
 }
 /* 导航栏 */
 .nav-box {
@@ -73,11 +74,11 @@ button{
     }
   
     .nav-item :hover{
-    border-bottom: 0;
+        border-bottom: 0;
    }
    .navbar-brand img{
-    width: 180px;
-    margin: 10px 0;
+        width: 180px;
+        margin: 10px 0;
    }
 }
 
@@ -96,8 +97,7 @@ button{
 
 /* 高效 人脉 */
 .top{
-    margin-top: 87px;
-    margin-bottom: 75px;
+    margin: 87px 0 75px 0;
 }
 .line{
   text-align: center;
@@ -157,8 +157,8 @@ button{
 .box {
     display: flex !important;
     justify-content: space-between;
-    color: #29B078;
     align-items: center;
+    color: #29B078;
 }
 
 /* 如何学习 */
@@ -166,19 +166,19 @@ button{
     margin-bottom: 40px;
 }
 .font{
+    width: 72%;
     margin:0 0 0 10PX;
     padding: 0;
     color:#999999;
-    width: 72%;
 }
 .circle-content{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-shrink:0;
     height: 35px;
     width: 35px;
     border: 1px;
+    flex-shrink:0;
     border-radius: 50%;
     background: #fff;
 }
@@ -253,11 +253,11 @@ button{
 /* 和作企业 */
 @media screen and (max-width: 577px){
     .col-20{
-        width: 80%;
         display: flex;
         justify-content: center;
         align-items: center;
         margin: 20px 0;
+        width: 80%;
     }
     .box2{
         display: flex;
@@ -270,10 +270,10 @@ button{
 }
 @media screen and (min-width: 577px){
     .col-20{
-        width:20%;
         display: flex;
         justify-content: center;
         align-items: center;
+        width:20%;
     }
     .box2{
         display: flex;

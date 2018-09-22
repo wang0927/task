@@ -106,18 +106,22 @@ button{
     padding: 0;
     margin: 0;
 }
-.distance li:hover{
+.distance a:hover{
     background: #29b078;
     color: #ffffff;
 }
 
 .distance a {
-    margin-right: 2%; 
+    display: inline-block;
+    text-align: center;
+    width: 5rem;
+    color: #333;
+    text-decoration:none !important;
 }
 .distance li{
     list-style: none;
     display: block;
-    margin-right: 1rem;
+    
 }
 
 @media (max-width:576px){
