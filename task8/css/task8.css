@@ -4,7 +4,7 @@ body {
 }
 /* 头部电话小图标 */
 header .row{
-    align-items: center;
+  
     color: #29b078;
 }
 
@@ -246,6 +246,9 @@ button{
 .student4{
     background-position: -232px -10px;
 }
+.name{
+    white-space: nowrap;
+}
 .text-justify{
     color: #999999;
 }
@@ -282,10 +285,6 @@ button{
 
     }
     
-}
-.juzhong{
-    display: flex;
-    justify-content: center;
 }
 .qiye{
     margin: 85px 0 20px 0;
