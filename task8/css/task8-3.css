@@ -53,7 +53,7 @@ header .row{
 }
 .nav-link {
     padding: 0 !important;
-    width: 4rem;
+    margin-left: 4vw;
     line-height: 4rem;
     border-bottom: 2px solid #29b078;
     color: #ffffff !important;
@@ -80,19 +80,25 @@ button{
 .one{
     padding: 1rem 0;
     border-bottom: 1px solid #D0D6D9;
+    width: 100%;
+    display: inline-block;
+    margin: 0;
+    
 }
 .one p{
+    display: inline-block;
+    color: #29b078;
     margin: 0;
 }
-.one :nth-child( 2 ){
-    color: #29b078;
-}
 .two{
+    display: flex;
+    margin: 0;
     padding: 1rem 0;
+    font-size: 14px;
     border-bottom: 1px solid #D0D6D9;
 }
 .whole{
-    margin-right: 2%;
+    margin: 0 2%;
 }
 .whole:hover {
     background: #29b078;
@@ -101,24 +107,20 @@ button{
 .text-left{
     color: #999999;
 }
-.distance{
-    display: flex;
-    padding: 0;
-    margin: 0;
-}
-.distance a:hover{
+
+.two a:hover{
     background: #29b078;
     color: #ffffff;
 }
 
-.distance a {
+.two a {
     display: inline-block;
     text-align: center;
     width: 5rem;
     color: #333;
     text-decoration:none !important;
 }
-.distance li{
+.two li{
     list-style: none;
     display: block;
     
@@ -129,13 +131,8 @@ button{
         display: flex;
         flex-direction: column;
     }
-    .whole{
-        text-align: center;
-        margin-right: 15px;
-    }
     .distance{
         display: inline-block;
-        padding: 0;
         margin: 0;
         text-align: center;
     }
@@ -159,7 +156,7 @@ button{
 table,th,td {
     border: 1px solid #999999;
 }
-/* th.width1 {
+th.width1 {
     width: 40%;
 }
 th.width2 {
@@ -167,7 +164,7 @@ th.width2 {
 }
 th.width3 {
     width: 50%;
-} */
+}
 .forth-line table {
 border: none;
 }
@@ -432,7 +429,10 @@ footer .text-right div {
 /* 最底部 */
 
 footer .p666 {
-    padding: .05rem;
+    padding: .08rem;
     font-size: .12rem;
+    border-top: 1px solid rgb(255, 255, 255,0.3);
 }
-
+footer p{
+    margin: 0
+}

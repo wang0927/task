@@ -54,7 +54,7 @@ header .row{
 }
 .nav-link {
     padding: 0 !important;
-    width: 4rem;
+    margin-left: 4vw;
     line-height: 4rem;
     border-bottom: 2px solid #29b078;
     color: #ffffff !important;
@@ -93,9 +93,11 @@ main{
     margin: 1rem 0;
 }
 .text-left p{
-    margin: 0;
+    display: inline-block;
+    margin: 0; 
 }
 .text-left :nth-child(2){
+    display: inline-block;
     color: #29B078;
 }
 
@@ -107,9 +109,9 @@ main{
     display: inline-block;
     width: 8px;
     height: 8px;
+    margin-right: 5px;
     border: 1px solid #ff640c;
     border-radius: 50%;
-    margin-right: 5px;
 }
 li:hover i{
     background: #ff640c;
@@ -121,17 +123,17 @@ li span{
     color: #29B078;
 }
 .hezuo{
-    border: 1px solid #c9c9c9;
     display: flex;
     flex-direction: column;
+    border: 1px solid #c9c9c9;
 }
 .qiye{
     display: inline-block;
-    border-bottom: 1px solid #c9c9c9;
     width: 100%;
-    font-size: 16px;
     padding: 12px 0;
     text-align: center;
+    font-size: 16px;
+    border-bottom: 1px solid #c9c9c9;
 }
 .tengxun{
     list-style: none;
@@ -142,18 +144,19 @@ li span{
 }
 /* 企业合作右边 */
 .text-top{
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
-    font-size: 14px;
-    color: #999999;
+    align-items: center; */
     padding: 5%;
-    border: 1px solid #c9c9c9;
     text-indent: 2rem;
     background: #ffffff;
+    font-size: 14px;
+    color: #999999;
+    border: 1px solid #c9c9c9;
 }
 .tudou{
-    flex-shrink: 0;
+    float: left;
+    /* flex-shrink: 0; */
     background: url(../img/tudou.png) no-repeat;
     width: 134px;
     height: 122px;
@@ -185,8 +188,7 @@ footer .row {
 
 footer .pp1 {
     display: inline-block;
-    margin-top: .08rem;
-    margin-bottom: .08rem;
+    margin: .08rem 0;
     font-size: 1rem;
 }
 
@@ -227,8 +229,10 @@ footer .text-right div {
 /* 最底部 */
 
 footer .p666 {
-    padding: .05rem;
+    padding: .08rem;
     font-size: .12rem;
+    border-top: 1px solid rgb(255, 255, 255,0.3);
 }
-
-
+footer p{
+    margin: 0
+}

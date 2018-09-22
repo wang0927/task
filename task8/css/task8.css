@@ -58,7 +58,7 @@ header .row{
 }
 .nav-link {
     padding: 0 !important;
-    width: 4rem;
+    margin-left: 4vw;
     line-height: 4rem;
     border-bottom: 2px solid #29b078;
     color: #ffffff !important;
@@ -288,8 +288,7 @@ button{
     justify-content: center;
 }
 .qiye{
-    margin-top: 85px;
-    margin-bottom: 20px;
+    margin: 85px 0 20px 0;
     text-align: center;
 }
 .qiye1{
@@ -306,22 +305,21 @@ button{
     display: inline-block;
     width: 7px;
     height: 7px;
-    background: #29b078;
     border-radius: 50%;
+    background: #29b078;
 }
 
 .yuan{
     display: inline-block;
     width: 7px;
     height: 7px;
-    background: #ffffff;
     border-radius: 50%;
+    background: #ffffff;
 }
 /* 友情链接 */
 .coloer{
-background: #ffffff;
 padding-bottom: 1%;
-
+background: #ffffff;
 }
 .col10{
   
@@ -422,7 +420,10 @@ footer .text-right div {
 /* 最底部 */
 
 footer .p666 {
-    padding: .05rem;
+    padding: .08rem;
     font-size: .12rem;
+    border-top: 1px solid rgb(255, 255, 255,0.3);
 }
-
+footer p{
+    margin: 0
+}
