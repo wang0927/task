@@ -43,16 +43,16 @@ header{
     @include w-h(100%,.44rem );
     background: #5FC0CD;
        .close{
-       @include button;
         margin-left: $direction; 
+        @include button;
        }
        .login{
        @include button(16px) ;
 
        }
        .register{
-        @include button;
         margin-right: $direction;
+        @include button;
        }
 }
 
@@ -76,9 +76,9 @@ header{
 }
 
 .login-bottom {
-    background: #5FC0CD;
     @include w-h(100%, .5rem);
     margin-top: .2rem;
+    background: #5FC0CD;
     color: #ffffff;
     font-size: $font-size + $font-size/5;
 }

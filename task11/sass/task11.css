@@ -32,9 +32,9 @@ header {
 }
 
 header .close {
+  margin-left: 0.16rem;
   font-size: 15px;
   color: #ffffff;
-  margin-left: 0.16rem;
 }
 
 header .login {
@@ -43,9 +43,9 @@ header .login {
 }
 
 header .register {
+  margin-right: 0.16rem;
   font-size: 15px;
   color: #ffffff;
-  margin-right: 0.16rem;
 }
 
 .user, .pass {
@@ -72,10 +72,10 @@ header .register {
 }
 
 .login-bottom {
-  background: #5FC0CD;
   width: 100%;
   height: 0.5rem;
   margin-top: .2rem;
+  background: #5FC0CD;
   color: #ffffff;
   font-size: 18px;
 }
