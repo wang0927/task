@@ -186,10 +186,12 @@ footer{
     justify-content: space-around;
     align-items: center;
     background: #F8FAFB;
-    a{
+    .first{
         display: flex;
         flex-direction: column;
-        text-decoration:none;
+        a{
+            text-decoration:none;
+        }
         span{
             margin-top: .1rem;
             color: #55a8b3;
