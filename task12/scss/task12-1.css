@@ -180,12 +180,13 @@ footer {
   background: #F8FAFB;
 }
 
-footer .first {
+footer a {
   display: flex;
   flex-direction: column;
+  text-decoration: none;
 }
 
-footer .first span {
+footer a span {
   margin-top: .1rem;
   color: #55a8b3;
 }
