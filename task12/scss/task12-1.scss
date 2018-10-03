@@ -114,9 +114,8 @@ header {
         ul {
             display: none;
             text-align: center;
-
+            background: #999999;
             li {
-                margin: .1rem 0;
                 list-style-type: none;
                 background: #f9f9f9;
 
@@ -189,7 +188,11 @@ footer{
     a{
         display: flex;
         flex-direction: column;
+        align-items: center;
         text-decoration:none;
+        img{
+            width: 30px;
+        }
         span{
             margin-top: .1rem;
             color: #55a8b3;
@@ -202,10 +205,17 @@ footer{
        @include w-h(.94rem,.94rem );
         border-radius: 50%;
         background: #5FC0CD;
+        img{
+            width: 20px;
+        }
     }
     .my{
         display: flex;
+        align-items: center;
         flex-direction: column;
+    }
+    img{
+        width: 25px;
     }
     span{
         margin-top: .1rem;

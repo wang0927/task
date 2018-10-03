@@ -109,10 +109,10 @@ header {
 .down div ul {
   display: none;
   text-align: center;
+  background: #999999;
 }
 
 .down div ul li {
-  margin: .1rem 0;
   list-style-type: none;
   background: #f9f9f9;
 }
@@ -183,7 +183,12 @@ footer {
 footer a {
   display: flex;
   flex-direction: column;
+  align-items: center;
   text-decoration: none;
+}
+
+footer a img {
+  width: 30px;
 }
 
 footer a span {
@@ -201,9 +206,18 @@ footer .pen {
   background: #5FC0CD;
 }
 
+footer .pen img {
+  width: 20px;
+}
+
 footer .my {
   display: flex;
+  align-items: center;
   flex-direction: column;
+}
+
+footer img {
+  width: 25px;
 }
 
 footer span {
