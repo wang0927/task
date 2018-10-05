@@ -1,0 +1,131 @@
+@charset "UTF-8";
+
+@mixin w-h($w, $h) {
+    width: $w;
+    height: $h;
+}
+
+$color:#29BDE0;
+
+@mixin position($fi, $t) {
+    position: $fi; // 固定定位
+    top: $t;
+}
+
+@mixin display($fl, $ju, $al) {
+    display: $fl; // 弹性盒子flex
+    justify-content: $ju; // 水平居中
+    align-items: $al; // 垂直居中
+}
+
+html {
+    font-size: 312.5%;
+}
+
+body {
+    font-size: initial;
+    padding: 0;
+    margin: 0;
+    background: #F0F0F0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    @include display(flex,center ,center )
+}
+
+header {
+    @include position(fixed, 0);
+    @include display(flex, flex-start, center);
+    @include w-h(100%, 1rem);
+    background: $color;
+
+    div {
+        @include w-h(25px, 3px);
+        border-top: 3px solid #ffffff;
+        border-bottom: 3px solid #ffffff;
+        background-color: #ffffff;
+        padding: 5px 0;
+        margin-left: .3rem;
+        background-clip: content-box;
+
+    }
+}
+
+.top {
+    background: #ffffff;
+    margin: 1.32rem .36rem .32rem .36rem;
+    padding: .42rem 0;
+    text-align: center;
+
+    p {
+        position: relative;
+        font-size: 18px;
+        color: #9A9A9A;
+
+        &::after {
+            content: "";
+            @include position(absolute, .1rem);
+            right: .28rem;
+            @include w-h(12px, 12px);
+            border-top: 2px solid #9A9A9A;
+            border-right: 2px solid #9A9A9A;
+            transform: rotate(45deg);
+        }
+    }
+}
+
+.middle {
+    margin: 0 .36rem;
+    background: #ffffff;
+    text-align: center;
+
+    .last {
+        padding: .3rem 0;
+        color: #FBB435;
+        font-size: 19px;
+        border-bottom: 1px solid#FBB435;
+    }
+
+    .game {
+        padding: .5rem 0;
+        margin: .3rem .8rem;
+        color: #ffffff;
+        font-size: 18px;
+        background: $color;
+    }
+
+    .idiot {
+        @extend .game;
+        position: relative;
+
+        &::after {
+            content: "";
+            @include position(absolute, .3rem);
+            right: -.7rem;
+            @include w-h(0,0 );
+            border-top: 25px solid transparent;
+            border-bottom: 25px solid transparent;
+            border-left: 20px solid #FBB435;
+        }
+    }
+
+    p {
+        color: #787878;
+    }
+    li{
+        @include w-h(12px,12px );
+        border-radius: 50%;
+        background: #F0F0F0;
+        margin: .2rem .1rem;
+        &:hover{
+            background: $color;
+        }
+    }
+}
