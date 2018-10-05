@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+@mixin w-h($w, $h) {
+    width: $w;
+    height: $h;
+}
+
+@mixin display($fl, $ju, $al) {
+    display: $fl; // 弹性盒子flex
+    justify-content: $ju; // 水平居中
+    align-items: $al; // 垂直居中
+}
+
+html {
+    font-size: 312.5%;
+}
+
+body {
+    font-size: initial;
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    @include display(flex, space-between, center);
+    background: #29BDE0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+
+    img {
+        width: .6rem;
+        margin: 0 .2rem;
+    }
+
+    span {
+        color: #fff;
+        font-size: 17px;
+        margin: .4rem 0;
+    }
+}
+
+main {
+    margin-top: 1.3rem;
+    background: #29BDE0;
+    .top {
+        position: relative;
+        text-align: center;
+        img{
+            width: 3.51rem;
+            height: 2.05rem;
+        }
+        span{
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            margin-top: .3rem;
+            margin-left: -.88rem;
+            color: #fff;
+            font-size:22px ;
+        }   
+    }
+    p{
+        margin: .2rem .8rem .6rem .8rem;
+        text-align: left;
+        color: #FFC865;
+        font-size: 17px;
+    }
+}

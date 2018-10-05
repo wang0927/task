@@ -164,25 +164,26 @@ main .water .police:hover .down {
 }
 
 footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: fixed;
   bottom: 0;
   width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: stretch;
   background: #29BDE0;
 }
 
 footer div {
-  text-align: center;
+  width: 81%;
+  padding: .4rem;
   border-top: 1px solid #ffffff;
 }
 
 footer div button {
   outline: none;
   border: none;
-  padding: 0.4rem 4.5rem;
-  margin: .3rem 0.25rem;
+  width: 100%;
+  padding: .2rem;
   background-color: #FBB435;
   font-size: 20px;
   color: #ffffff;

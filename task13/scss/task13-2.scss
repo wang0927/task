@@ -168,23 +168,27 @@ main {
         }
     }
 }
-footer{
+
+footer {
+    @include display(flex, center, center);
     position: fixed;
     bottom: 0;
     width: 100%;
-    @include display(flex,center ,stretch );
     background: #29BDE0;
-    div{
-    text-align: center;
-    border-top: 1px solid #ffffff;
-    button{
-        outline: none;
-        border: none;
-        padding: 0.4rem 4.5rem;
-        margin: .3rem 0.25rem;
-        background-color: #FBB435;
-        font-size: 20px;
-        color: $color;
-    }
+
+    div {
+        width: 81%;
+        padding: .4rem;
+        border-top: 1px solid #ffffff;
+
+        button {
+            outline: none;
+            border: none;
+            width: 100%;
+            padding: .2rem; 
+            background-color: #FBB435;
+            font-size: 20px;
+            color: $color;
+        }
     }
 }
