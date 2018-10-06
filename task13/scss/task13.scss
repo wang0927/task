@@ -101,7 +101,7 @@ div.main-content {
 
         label.left {
             display: inline-block;
-            @include box(.34rem, .07rem);
+            @include box(.34rem, .05rem);
             padding: .08rem 0;
             margin: .3rem 0 0 .22rem;
             border-top: $header;
