@@ -77,8 +77,8 @@ input {
             content: "";
             @include box(.24rem, .24rem);
             margin-right: .5rem;
-            border-top: 3px solid #ffffff;
-            border-right: 3px solid #ffffff;
+            border-top: 0.05rem solid #69D1E9;
+            border-right: 0.05rem solid #69D1E9;
             transform: rotate(45deg);
         }
     }
@@ -101,11 +101,11 @@ div.main-content {
 
         label.left {
             display: inline-block;
-            @include box(.34rem, 3px);
+            @include box(.34rem, 2px);
             padding: .08rem 0;
             margin: .3rem 0 0 .22rem;
-            border-top: $header;
-            border-bottom: $header;
+            border-top: 2px solid #ffffff;
+            border-bottom: 2px solid #ffffff;
             background: $white content-box;
         }
     }
