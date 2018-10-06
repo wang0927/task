@@ -61,6 +61,10 @@ header img {
   width: .4rem;
 }
 
+main {
+  margin-bottom: 1.5rem;
+}
+
 main .top {
   display: flex;
   justify-content: space-between;

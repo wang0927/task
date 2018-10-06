@@ -70,6 +70,7 @@ header {
 }
 
 main {
+    margin-bottom: 1.5rem;
     .top {
 
         @include display(flex, space-between, center);
