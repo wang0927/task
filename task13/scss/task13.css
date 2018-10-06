@@ -50,8 +50,8 @@ input {
   width: 0.24rem;
   height: 0.24rem;
   margin-right: .5rem;
-  border-top: 0.05rem solid #69D1E9;
-  border-right: 0.05rem solid #69D1E9;
+  border-top: 3px solid #ffffff;
+  border-right: 3px solid #ffffff;
   transform: rotate(45deg);
 }
 
@@ -76,7 +76,7 @@ div.main-content header {
 div.main-content header label.left {
   display: inline-block;
   width: 0.34rem;
-  height: 0.05rem;
+  height: 3px;
   padding: .08rem 0;
   margin: .3rem 0 0 .22rem;
   border-top: 0.05rem solid #FFFFFF;
