@@ -53,9 +53,9 @@ nav {
             background: $white content-box;
 
             &:hover{
-                border-top: .06rem solid $orange;
-                border-bottom: .06rem solid $orange;
-                background: $orange content-box;
+                border-top: .06rem solid $text;
+                border-bottom: .06rem solid $text;
+                background: $text content-box;
             }
         }
         @media (min-width: 768px) {
