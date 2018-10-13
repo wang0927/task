@@ -128,9 +128,9 @@ nav div.row .nav-toggle {
 }
 
 nav div.row .nav-toggle:hover {
-  border-top: 0.06rem solid #FF650E;
-  border-bottom: 0.06rem solid #FF650E;
-  background: #FF650E content-box;
+  border-top: 0.06rem solid #999999;
+  border-bottom: 0.06rem solid #999999;
+  background: #999999 content-box;
 }
 
 @media (min-width: 768px) {
