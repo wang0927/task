@@ -1,6 +1,6 @@
-@charset"UTF-8";
+@charset "UTF-8";
 
-/*样式重置*/
+/*重置样式*/
 @import"_reset";
 
 /*header眉页*/
@@ -10,7 +10,7 @@
 @import"_nav";
 
 /*main主体*/
-@import"_job";
+@import"../sass/task14-2main.scss";
 
 /*footer尾页*/
 @import"_footer";
