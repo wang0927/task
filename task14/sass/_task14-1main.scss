@@ -8,21 +8,21 @@ main {
         // 高效
         span.huojian {
             @include homepage-top;
-            @include box(.45rem, .62rem);
+            @include box(.45rem, .6rem);
             background: url(../picture/task-css14.png) no-repeat -1.99rem 0;
         }
 
         // 规范
         span.book {
             @include homepage-top;
-            @include box(.6rem, .5rem);
+            @include box(.6rem, .6rem);
             background: url(../picture/task-css14.png) no-repeat -1.88rem -2.42rem;
         }
 
         // 人脉
         span.person {
             @include homepage-top;
-            @include box(.52rem, .55rem);
+            @include box(.52rem, .6rem);
             background: url(../picture/task-css14.png) no-repeat -1.92rem -1.2rem;
         }
         h6 {
