@@ -15,7 +15,7 @@ main {
         // 规范
         span.book {
             @include homepage-top;
-            @include box(.6rem, .48rem);
+            @include box(.6rem, .5rem);
             background: url(../picture/task-css14.png) no-repeat -1.88rem -2.42rem;
         }
 
