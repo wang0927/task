@@ -8,7 +8,8 @@ footer {
     font-size: 12px;
     color: $white;
     font-size: 14px;
-    background: $green;
+    background: $green
+}
 footer .row {
    padding: 18px;
 }
@@ -16,6 +17,7 @@ footer .pp1 {
     display: inline-block;
     margin-top: .08rem;
     margin-bottom: .08rem;
+    margin: .08rem 0 .08rem
 }
 footer .col-sm-4 {
     display: flex;
@@ -44,7 +46,6 @@ footer .text-right div {
         max-width: 100%;
         text-align: left !important;
     }
-}
 .piction{
     text-align: right;
 }
