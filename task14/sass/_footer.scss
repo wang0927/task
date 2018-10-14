@@ -31,27 +31,28 @@ footer {
                 font-size: 15px;
             }
 
-            .div {
-                .ppp {
-                    margin-right: .35rem;
+            .ppp {
+                margin-right: .35rem;
 
-                    &:hover {
-                        border-bottom: 1px solid #ffffff;
-                    }
-                }
-                .pp2:hover {
+                &:hover {
                     border-bottom: 1px solid #ffffff;
                 }
-
             }
+
+            .pp2:hover {
+                border-bottom: 1px solid #ffffff;
+            }
+
         }
+
         .piction {
             text-align: right;
         }
     }
+
     div.copyright-box {
         border-top: $border $green;
-    
+
         p.copyright {
             font-size: .14rem;
             text-align: center;
@@ -65,7 +66,8 @@ footer {
         flex: 0 0 100%;
         max-width: 100%;
         text-align: left !important;
-        p{
+
+        p {
             margin: 5px 0;
         }
     }
