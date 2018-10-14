@@ -312,73 +312,49 @@ main.collaborate .text-box article .text-font {
 /*footer尾页*/
 footer {
   width: 100%;
-  margin-top: 1.5rem;
-  padding-top: .2rem;
   background: #29b078;
 }
 
-footer .footer-font {
+footer .row {
   font-size: .16rem;
   color: #FFFFFF;
+  padding: 18px;
 }
 
-footer .it {
-  margin-left: .34rem;
+footer .row .col-sm-4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-@media (max-width: 575px) {
-  footer .footer-font {
-    line-height: .6rem;
-  }
+footer .row .col-sm-4 p {
+  display: inline;
 }
 
-footer div.erweima {
+footer .row .col-sm-4 .pp1 {
+  display: inline-block;
+  margin-top: .08rem;
+  margin-bottom: .08rem;
+  font-size: 15px;
+}
+
+footer .row .col-sm-4 .ppp {
+  margin-right: .35rem;
+}
+
+footer .row .col-sm-4 .ppp:hover {
+  border-bottom: 1px solid #ffffff;
+}
+
+footer .row .col-sm-4 .pp2:hover {
+  border-bottom: 1px solid #ffffff;
+}
+
+footer .row .piction {
   text-align: right;
 }
 
-footer div.erweima a.erweima {
-  position: absolute;
-  top: .5rem;
-  right: 0;
-  margin-right: .2rem;
-}
-
-footer div.erweima a.erweima img.erweima {
-  display: block;
-  width: 80px;
-  height: 80px;
-}
-
-@media (max-width: 575px) {
-  footer div.erweima a.erweima .erweima {
-    margin: .1rem -.25rem 0 0;
-  }
-}
-
-@media (max-width: 575px) {
-  footer div.erweima {
-    position: absolute;
-    top: 1.8rem;
-    left: .32rem;
-    margin-right: .5rem;
-  }
-}
-
-@media (min-width: 576px) {
-  footer .center-box {
-    margin-top: .3rem;
-  }
-}
-
-@media (max-width: 575px) {
-  footer .offset-4 {
-    margin-left: 0;
-  }
-}
-
 footer div.copyright-box {
-  padding: .07rem 0;
-  margin-top: .7rem;
   border-top: 0.01rem solid #29b078;
 }
 
@@ -388,8 +364,13 @@ footer div.copyright-box p.copyright {
   color: #FFFFFF;
 }
 
-@media (max-width: 575px) {
-  footer .copyright-box {
-    margin-top: 2.7rem !important;
+@media (max-width: 576px) {
+  footer .col-sm-4 {
+    flex: 0 0 100%;
+    max-width: 100%;
+    text-align: left !important;
+  }
+  footer .col-sm-4 p {
+    margin: 5px 0;
   }
 }
