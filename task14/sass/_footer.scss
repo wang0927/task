@@ -28,7 +28,7 @@ footer {
                 display: inline-block;
                 margin-top: .08rem;
                 margin-bottom: .08rem;
-                font-size: 1rem;
+                font-size: 15px;
             }
 
             .div {
@@ -51,8 +51,6 @@ footer {
         }
     }
     div.copyright-box {
-        padding: .07rem 0;
-        margin-top: .7rem;
         border-top: $border $green;
     
         p.copyright {
@@ -61,13 +59,6 @@ footer {
             color: $white;
         }
     }
-    
-    @media(max-width:575px) {
-        .copyright-box {
-            margin-top: 2.7rem !important;
-        }
-    }
-
 }
 
 @media (max-width:576px) {
@@ -75,5 +66,8 @@ footer {
         flex: 0 0 100%;
         max-width: 100%;
         text-align: left !important;
+        p{
+            margin: 5px 0;
+        }
     }
 }

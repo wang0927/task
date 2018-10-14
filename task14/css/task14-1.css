@@ -689,7 +689,7 @@ footer .row .col-sm-4 .pp1 {
   display: inline-block;
   margin-top: .08rem;
   margin-bottom: .08rem;
-  font-size: 1rem;
+  font-size: 15px;
 }
 
 footer .row .col-sm-4 .div .ppp {
@@ -709,8 +709,6 @@ footer .row .piction {
 }
 
 footer div.copyright-box {
-  padding: .07rem 0;
-  margin-top: .7rem;
   border-top: 0.01rem solid #29b078;
 }
 
@@ -720,16 +718,13 @@ footer div.copyright-box p.copyright {
   color: #FFFFFF;
 }
 
-@media (max-width: 575px) {
-  footer .copyright-box {
-    margin-top: 2.7rem !important;
-  }
-}
-
 @media (max-width: 576px) {
   footer .col-sm-4 {
     flex: 0 0 100%;
     max-width: 100%;
     text-align: left !important;
+  }
+  footer .col-sm-4 p {
+    margin: 5px 0;
   }
 }
