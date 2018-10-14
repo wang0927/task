@@ -390,6 +390,7 @@ main.job .intro-box .standard-font .right-txet {
 /*footer尾页*/
 footer {
   width: 100%;
+  margin-top: 1rem;
   background: #29b078;
 }
 
