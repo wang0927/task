@@ -4,57 +4,78 @@
 
 
 // 尾页
-footer {
-    font-size: 12px;
-    color: $white;
-    font-size: 14px;
+footer{
+    width: 100%;
+    margin-top:1.5rem;
+    padding-top: .2rem;
     background: $green;
-    .row {
-        padding: 18px;
-        .col-sm-4 {
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            .pp1 {
-                display: inline-block;
-                margin-top: .08rem;
-                margin-bottom: .08rem;
-                margin: .08rem 0 .08rem .02rem;
+
+    .footer-font{
+        font-size: .16rem;
+        color:$white;
+    }
+    .it{
+        margin-left: .34rem;
+    }
+    @media(max-width:575px){
+        .footer-font{
+            line-height: .6rem;
+        }
+    }
+    div.erweima{
+        text-align: right;
+
+        a.erweima{
+            position: absolute;
+            top:.5rem;
+            right:0;
+            margin-right: .2rem;
+            
+            img.erweima{
+                display: block;
+                @include box(80px,80px);
             }
-            p {
-                display: inline;
+            @media(max-width:575px){
+                .erweima{
+                    margin:.1rem -.25rem 0 0;
+                }
             }
         }
-     }
-}
-.col-sm-4 .ppp:hover{
-    border-bottom: 1px solid #ffffff;
-}
-.pp2:hover{
-    border-bottom: 1px solid #ffffff;
-}
-footer .ppp {
-    margin-right: .35rem;
-}
-footer .text-right div {
-    margin-top: .1rem;
-}
-@media (max-width:576px) {
-    footer .col-sm-4 {
-        flex: 0 0 100%;
-        max-width: 100%;
-        text-align: left !important;
     }
-}
-.piction{
-    text-align: right;
-}
+    @media(max-width:575px){
+        div.erweima{
+            position: absolute;
+            top:1.8rem;
+            left: .32rem;
+            margin-right: .5rem;
+        }
+    }
 
-/* 最底部 */
+    @media(min-width:576px){
+        .center-box{
+            margin-top:.3rem;
+        }
+    }
+    @media(max-width:575px){
+        .offset-4{
+            margin-left: 0;
+        }
+    }
 
-footer .p666 {
-    text-align: center;
-    padding: .08rem;
-    font-size: .12rem;
-    border-top: 1px solid rgb(255, 255, 255,0.3);
+    div.copyright-box{
+        padding:.07rem 0;
+        margin-top: .7rem;
+        border-top: $border $green;
+
+        p.copyright{
+            font-size:.14rem;
+            text-align: center;
+            color: $white;
+        }
+    }
+    @media(max-width:575px){
+        .copyright-box{
+            margin-top: 2.7rem !important;
+        }
+    }
 }
