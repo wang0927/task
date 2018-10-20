@@ -11,7 +11,7 @@ function lattice() {
     //变量提升(变量提升即将变量声明提升到它所在作用域的最开始的部分) 
     // var first; 
     // first = Math.floor(Math.random() * 9); 如下↓↓↓↓↓↓
-
+    //—————————————————————————————————————————————————
     // console.log(first, second, third); // undefined
     // var first = Math.floor(Math.random() * 9);
     // var second = Math.floor(Math.random() * 9);
