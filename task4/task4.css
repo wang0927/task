@@ -3,37 +3,44 @@ body{
     margin: 0px;
 
 }
-.header{
-    position: relative;
+header{
+    position: fixed;
+    top: 0;
     background-color: #5fc0cd;
     text-align: center;
     height: 64px;
     width: 100%;
+    z-index: 1;
+    color: #ffffff;
 }
 .register{
-    color: #ffffff;
+ 
   position: absolute;
   left: 16px;
   line-height: 64px;
   font-size: 15px;
 }
 .Sign-in{
-    color: #ffffff;
     font-size: 16px;
     line-height: 64px;
 }
 .close{
-    color:#ffffff;
     position: absolute;
    font-size: 15px;
    right: 15px;
    line-height: 64px;
 }
-.box{
+.box-locked{
     position: relative;
     background-color: #ffffff;
     line-height: 50px;
     margin-top: 8px;    
+}
+.box-iphone{
+    position: relative;
+    background-color: #ffffff;
+    line-height: 50px;
+    margin-top: 72px;    
 }
 
 .iphone{
