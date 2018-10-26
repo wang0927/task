@@ -89,6 +89,18 @@ function button() {
     location.href = "./js2-3.html";
     return false;
 }
+
+/// 键盘事件，onkeydown事件当用户按下按键触发
+document.onkeydown = function (event) { //a是按键信息对象以函数参数的形式传递进来
+
+    //取出按键信息中的按键代码(大部分浏览器通过keyCode属性获取按键代码，但少部分浏览器使用的却是charCode
+    var code = event.charCode || event.keyCode;  
+
+    //13为回车键的编码
+    if (code === 13) {   
+        button(); //调用button函数
+    }
+}
 // var res = [];
 // for (var i = 0, len = team.length; i < len; i++) {
 //   // 随机叫个
