@@ -10,11 +10,11 @@ var arr;//声明一个全局变量arr，让button的函数访问到arr变量
 antity.oninput = function () {
     var x = /\D/g; //定义正则，非数字规则
     this.value = this.value.replace(x, ""); // 符合正则规则替换为空值
-    mmp(this.value); // 获取当前对象输入的值
+    player(this.value); // 获取当前对象输入的值
 }
 
 // 把获取的值赋给Killer和civilian两个input
-function mmp(value) {
+function player(value) {
 
     killer.value = Math.round(value - (value / 2 + value / 6 + value / 24.1));
     civilian.value = Math.round(value / 2 + value / 6 + value / 24.1)
@@ -36,7 +36,7 @@ function mmp(value) {
     }
 
 }
-mmp(antity.value) //先帮默认值自运行一遍
+player(antity.value) //先帮默认值自运行一遍
 
 
 // antity.oninput = function () {
