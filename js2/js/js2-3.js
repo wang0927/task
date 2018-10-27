@@ -38,7 +38,7 @@ var n = 2;
 var m = 0;
 check.onclick = function () {
     if (m == arr.length) {// 等于数组长度跳转
-        location.href = "../html/js2-2.html";
+        location.href = "../html/js3-1.html";
         return
     }
 console.log(i,n,m)
