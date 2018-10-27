@@ -65,6 +65,7 @@ main .box {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   position: relative;
   height: 6.64rem;
   border: 0.05rem solid #ffffff;
@@ -97,26 +98,20 @@ main .box .picture {
   background: url(../img/block.png) no-repeat center/cover;
 }
 
-main .box .circle-box {
-  display: none;
-  position: absolute;
-  top: .6rem;
-}
-
-main .box .circle-box .look {
-  display: inline-block;
+main .box .look {
   width: 2.5rem;
   height: 2.5rem;
   border-radius: 100%;
   background: url(../img/none.png) no-repeat center/cover;
+  display: none;
 }
 
-main .box .circle-box .describe {
+main .box .describe {
   margin-top: .3rem;
-  display: block;
   text-align: center;
   font-size: .4rem;
   color: #29BDE0;
+  display: none;
 }
 
 footer {

@@ -81,6 +81,7 @@ main {
 
     .box {
         @include flex(center, center);
+        flex-direction: column;
         position: relative;
         height: 6.64rem;
         border: 0.05rem solid $color;
@@ -109,26 +110,23 @@ main {
             background: url(../img/block.png) no-repeat center/cover;
         }
 
-        .circle-box {
+
+
+        .look { 
+            @include wh(2.5rem, 2.5rem);
+            border-radius: 100%;
+            background: url(../img/none.png) no-repeat center/cover;
             display: none;
-            position: absolute;
-            top: .6rem;
-
-            .look {
-                display: inline-block;
-                @include wh(2.5rem, 2.5rem);
-                border-radius: 100%;
-                background: url(../img/none.png) no-repeat center/cover;
-            }
-
-            .describe {
-                margin-top: .3rem;
-                display: block;
-                text-align: center;
-                font-size: .4rem;
-                color: $background;
-            }
         }
+
+        .describe {
+            margin-top: .3rem;
+            text-align: center;
+            font-size: .4rem;
+            color: $background;
+            display: none;
+        }
+
     }
 }
 
