@@ -69,15 +69,16 @@ main .player .people {
   display: flex;
   flex-direction: column;
   display: none;
-  width: 30vw;
-  height: 30vw;
-  padding: 1.6vw;
+  width: 29vw;
+  height: 29vw;
+  margin: .5vw;
+  border: 5px solid #fff;
 }
 
 main .player .people .identity {
   width: 100%;
   height: 70%;
-  background: #FBB435;
+  background: #fbb435;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -86,7 +87,7 @@ main .player .people .identity {
 main .player .people .amount {
   width: 100%;
   height: 30%;
-  background: #F56B81;
+  background: #29BDE0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -110,10 +111,10 @@ footer button {
   width: 100%;
   height: 1rem;
   margin: 0 .75rem;
-  background: #FBB435;
+  background: #fbb435;
   font-size: .5rem;
   letter-spacing: .15rem;
   color: #ffffff;
   cursor: pointer;
-  box-shadow: 0 0 0 1.5px #FBB435;
+  box-shadow: 0 0 0 1.5px #fbb435;
 }

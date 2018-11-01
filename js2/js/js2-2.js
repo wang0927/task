@@ -117,7 +117,7 @@ document.onkeydown = function (event) { //a是按键信息对象以函数参数�
 //   var randomIndex = i + Math.floor(Math.random() * (len - i));
 //   // 咱俩换换，找别人换过的相当于出列了，因此上面的 randomIndex 需要在剩下的人当中挑选
 //   var temp = team[i];
-//   team[i] = team[randomIndex];
+//   team[i] = team[randomIndex];  
 //   team[randomIndex] = temp;
 // }
 // console.log(team);
