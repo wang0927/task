@@ -58,24 +58,20 @@ header .close::after {
 
 main {
   margin: 1rem 0 2rem 0;
-}
-
-main .player {
   display: flex;
   flex-flow: wrap;
 }
 
-main .player .people {
+main .people {
   display: flex;
   flex-direction: column;
-  display: none;
   width: 29vw;
   height: 29vw;
   margin: .5vw;
   border: 5px solid #fff;
 }
 
-main .player .people .identity {
+main .people .identity {
   width: 100%;
   height: 70%;
   background: #fbb435;
@@ -84,7 +80,7 @@ main .player .people .identity {
   align-items: center;
 }
 
-main .player .people .amount {
+main .people .amount {
   width: 100%;
   height: 30%;
   background: #29BDE0;

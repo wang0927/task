@@ -75,36 +75,33 @@ header {
 
 main {
     margin: 1rem 0 2rem 0;
-    .player {
+    display: flex;
+    flex-flow: wrap;
+
+    .people {
         display: flex;
-        flex-flow: wrap;
+        flex-direction: column;
+        width: 29vw;
+        height: 29vw;
+        margin: .5vw;
+        border: 5px solid #fff;
 
-        .people {
+        .identity {
+            width: 100%;
+            height: 70%;
+            background: $yellow;
             display: flex;
-            flex-direction: column;
-            display: none;
-            width: 29vw;
-            height: 29vw;
-            margin: .5vw;
-            border: 5px solid #fff;
+            justify-content: center;
+            align-items: center;
+        }
 
-            .identity {
-                width: 100%;
-                height: 70%;
-                background: $yellow;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-            }
-
-            .amount {
-                width: 100%;
-                height: 30%;
-                background: $background;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-            }
+        .amount {
+            width: 100%;
+            height: 30%;
+            background: $background;
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
     }
 }
