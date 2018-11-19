@@ -1,6 +1,6 @@
 $('#off').click(function () {
     if (confirm("是否要退出游戏返回到主页面")) {
-        location.href = "../html/start.html"; //点击确定返回到主页面
+        location.href = "../html/js2-1.html"; //点击确定返回到主页面
     } else {
         return false; //点击取消停留在当前页面
     }
@@ -64,14 +64,6 @@ console.log(Killer)
 var civilian = civiliannum; //定义一个平民变量，把获取的平民人数传到该变量
 console.log(civilian)
 
-
-var aaa = JSON.parse(localStorage.getItem("a"));
-var bbb = JSON.parse(localStorage.getItem("b"));
-console.log(aaa)
-console.log(bbb)
-var a;
-var b;
-
 // 点击投票按钮
 $('button').click(function () {
     // 当未选择玩家时，跳出提示弹窗
@@ -84,18 +76,15 @@ $('button').click(function () {
         localStorage.setItem("castarr", JSON.stringify(castarr));
         // 点击杀手投票投死时杀手人数-1
         if (arr[a].breed == "杀手") {
-            a = aaa - 1;
-            localStorage.setItem("a", JSON.stringify(a));
+            Killer = Killer - 1;
         } else if (arr[a].breed == "平民") {
             // 点击平民投票投死时平民人数-1
-            b = bbb - 1;
-            localStorage.setItem("b", JSON.stringify(b));
+            civilian = civilian - 1;
         }
-
-        // // 时时保存杀手剩余的人数
-        // localStorage.setItem("Killernum", JSON.stringify(Killer));
-        // // 时时保存平民剩余的人数
-        // localStorage.setItem("civiliannum", JSON.stringify(civilian));
+        // 时时保存杀手剩余的人数
+        localStorage.setItem("Killernum", JSON.stringify(Killer));
+        // 时时保存平民剩余的人数
+        localStorage.setItem("civiliannum", JSON.stringify(civilian));
         // 当杀手人数或平民人数为0时结束游戏
         if (Killer == "0" || civilian == "0") {
             location.href = "../html/js4-4.html";

@@ -1,7 +1,7 @@
 $('.left').click(function () {
     if (confirm("返回到主页")) {
         localStorage.clear(); //清除所有数据
-        location.href = "../html/start.html";
+        location.href = "../html/js2-1.html";
     } else {
         return false;
     }
@@ -49,5 +49,5 @@ if (castarr != null) {
 // 点击再来一局
 $('button').click(function () {
     localStorage.clear(); //清除所有数据
-    location.href = "../html/Player.html" //返回到分配玩家页面
+    location.href = "../html/js2-1.html" //返回到分配玩家页面
 })

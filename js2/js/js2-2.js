@@ -17,7 +17,13 @@ antity.oninput = function () {
 function player(value) {
 
     killer.value = Math.round(value - (value / 2 + value / 6 + value / 24.1));
-    civilian.value = Math.round(value / 2 + value / 6 + value / 24.1)
+    civilian.value = Math.round(value / 2 + value / 6 + value / 24.1);
+
+    // 时时保存分配的杀手总人数
+    localStorage.setItem("Killernum", JSON.stringify(killer.value));
+    // 时时保存分配的平民总人数
+    localStorage.setItem("civiliannum", JSON.stringify(civilian.value));
+
 
     if (4 > value || 18 < value) { //当玩家值小于4或大于18赋给Killer和civilian值为空
 
@@ -85,11 +91,7 @@ function button() {
         }
         localStorage.setItem("key", JSON.stringify(res));//保存数据
         console.log(res);
-        var a=killer.value;
-        var b=civilian.value;
-        localStorage.setItem("a", JSON.stringify(a));//保存数据
-        localStorage.setItem("b", JSON.stringify(b));//保存数据
-        console.log(a,b)
+
     }
     location.href = "./js2-3.html";
     return false;

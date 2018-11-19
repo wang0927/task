@@ -72,10 +72,6 @@ console.log(civilian)
 
 
 
-var bbb = JSON.parse(localStorage.getItem("b"));
-console.log(bbb)
-var b;
-
 
 // 点击杀人按钮
 $('button').click(function () {
@@ -85,15 +81,14 @@ $('button').click(function () {
     } else {
         // 当杀手点击平民并杀死时平民人数-1
         if (arr[a].breed == "平民") {
-            b = bbb - 1;
-            localStorage.setItem("b", JSON.stringify(b));
+            civilian = civilian - 1;
             // 记录被杀玩家的序号push到被杀死的玩家数组
             killarr.push(new Killed(arr[a].num, arr[a].breed));
             // 保存push的死亡玩家数组
             localStorage.setItem("killarr", JSON.stringify(killarr));
         }
         // 时时保存平民剩余的人数
-        // localStorage.setItem("civiliannum", JSON.stringify(civilian));
+        localStorage.setItem("civiliannum", JSON.stringify(civilian));
         // 当平民人数为0时结束游戏
         if (civilian == "0") {
             location.href = "../html/js4-4.html";
