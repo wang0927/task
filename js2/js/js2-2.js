@@ -85,6 +85,11 @@ function button() {
         }
         localStorage.setItem("key", JSON.stringify(res));//保存数据
         console.log(res);
+        var a=killer.value;
+        var b=civilian.value;
+        localStorage.setItem("a", JSON.stringify(a));//保存数据
+        localStorage.setItem("b", JSON.stringify(b));//保存数据
+        console.log(a,b)
     }
     location.href = "./js2-3.html";
     return false;

@@ -77,3 +77,25 @@ for (let i = 0; i <= arr.length - 1; i++) {
     x = i + 1; //获取数组指标对应的玩家对象的玩家序号
     $('.amount').eq(i).text(x + "号"); //把玩家人数序号传入对应指标的盒子
 }
+
+
+// 点击button生成构造函数
+$('button').click(function () {
+    // 创建构造函数
+    function Part(breed, status, num) {
+        this.breed = breed;
+        this.status = status;
+        this.num = num;
+    }
+    var PartArr = [] //声明一个数组，把构造函数的对象放到该数组
+
+    for (let i = 0; i < arr.length; i++) {
+        var temp = arr[i] //获取玩家对应的角色属性传到对象里
+        var num = i + 1 //生成玩家数量序号传入到对象
+        PartArr.push(new Part(temp, "存活", num)); //把生成的玩家对象push到数组
+    }
+    // 把玩家对象数组储存到浏览器本地
+    localStorage.setItem("store", JSON.stringify(PartArr));
+    // console.log(PartArr);
+    location.href = "../html/js4-1.html"; //进入下一个页面
+})
