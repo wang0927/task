@@ -5,6 +5,7 @@ $background:#29BDE0;
 $yellow:#fbb435;
 $color:#ffffff;
 $orang:#FFEDC5;
+$black:#565656;
 
 
 //混合器
@@ -79,7 +80,7 @@ main {
     flex-flow: wrap;
 
     .people {
-        @include wh(23.5vw,23.5vw);
+     @include wh(23.5vw,23.5vw);
     margin: 0 4vw 8.3vw 4vw;
     border: .05rem solid $color;
     background: #F5C97B;
