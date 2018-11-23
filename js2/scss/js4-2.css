@@ -77,30 +77,30 @@ main {
 }
 
 main .people {
-  display: flex;
-  flex-direction: column;
-  width: 29vw;
-  height: 29vw;
-  margin: .5vw;
-  border: 5px solid #fff;
+  width: 23.5vw;
+  height: 23.5vw;
+  margin: 0 4vw 8.3vw 4vw;
+  border: 0.05rem solid #ffffff;
+  background: #F5C97B;
 }
 
 main .people .identity {
-  width: 100%;
-  height: 70%;
-  background: #fbb435;
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 75%;
+  font-size: .3rem;
+  color: #565656;
 }
 
 main .people .amount {
-  width: 100%;
-  height: 30%;
-  background: #29BDE0;
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 25%;
+  background: rgba(26, 153, 183, 0.5);
+  font-size: .23rem;
+  color: #ffffff;
 }
 
 footer {

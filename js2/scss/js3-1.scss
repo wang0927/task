@@ -79,29 +79,24 @@ main {
     flex-flow: wrap;
 
     .people {
-        display: flex;
-        flex-direction: column;
-        width: 29vw;
-        height: 29vw;
-        margin: .5vw;
-        border: 5px solid #fff;
+        @include wh(23.5vw,23.5vw);
+    margin: 0 4vw 8.3vw 4vw;
+    border: .05rem solid $color;
+    background: #F5C97B;
 
         .identity {
-            width: 100%;
-            height: 70%;
-            background: $yellow;
-            display: flex;
-            justify-content: center;
-            align-items: center;
+            @include flex(center,center);
+            height: 75%;
+            font-size: .3rem;
+            color: $black;
         }
 
         .amount {
-            width: 100%;
-            height: 30%;
-            background: $background;
-            display: flex;
-            justify-content: center;
-            align-items: center;
+            @include flex(center,center);
+            height: 25%;
+            background: rgba(26,153,183,.5);
+            font-size: .23rem;
+            color: $color;
         }
     }
 }
