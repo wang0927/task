@@ -1,0 +1,133 @@
+@charset "UTF-8";
+/*样式重置*/
+html {
+  font-size: 312.5%;
+}
+
+body {
+  margin: 0;
+  font-size: initial;
+}
+
+/*文本主体*/
+/*背景图片*/
+body {
+  background: url(../img/timg.png) no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 9rem;
+  height: 6rem;
+  margin: -2.5rem -4rem;
+  background: rgba(255, 255, 255, 0.5);
+  text-align: center;
+}
+
+.box .font {
+  display: block;
+  margin: .3rem;
+  color: #03a9f4;
+}
+
+.box .user {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 0.9rem;
+  margin: .4rem auto;
+  background: #ffffff;
+}
+
+.box .user .iphone {
+  width: 0.4rem;
+  height: 0.4rem;
+  margin-left: .3rem;
+  background: url(../img/input.png) no-repeat 0 0;
+}
+
+.box .user .iphone::after {
+  content: "";
+  display: inline-block;
+  width: 2px;
+  height: 17px;
+  margin-left: 30px;
+  background: #e8e8e8;
+}
+
+.box .user input {
+  width: 100%;
+  height: 0.7rem;
+  margin-left: .5rem;
+  border: none;
+  /*清除点击imput后的边框*/
+  outline: none;
+}
+
+.box .password {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 0.9rem;
+  margin: .4rem auto;
+  background: #ffffff;
+}
+
+.box .password .lock {
+  width: 0.4rem;
+  height: 0.4rem;
+  margin-left: .3rem;
+  background: url(../img/input.png) no-repeat 0 -35px;
+}
+
+.box .password .lock::after {
+  content: "";
+  display: inline-block;
+  width: 2px;
+  height: 17px;
+  margin-left: 30px;
+  background: #e8e8e8;
+}
+
+.box .password input {
+  width: 100%;
+  height: 0.7rem;
+  margin-left: .5rem;
+  border: none;
+  /*清除点击imput后的边框*/
+  outline: none;
+}
+
+.box .hint {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 50%;
+  width: 200px;
+  margin-left: -100px;
+  font-size: 16px;
+  letter-spacing: 5px;
+  color: red;
+}
+
+.box button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 45px;
+  margin: 60px auto 0 auto;
+  background: #03a9f4;
+  font-size: 18px;
+  color: #ffffff;
+  /*字符间距*/
+  letter-spacing: 5px;
+  box-shadow: 0 0 0 1px #03a9f4;
+}

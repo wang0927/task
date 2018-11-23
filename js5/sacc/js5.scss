@@ -1,0 +1,103 @@
+@charset"UTF-8";
+
+@import"_layout";
+
+// 样式重置
+@import"_reset";
+
+/*文本主体*/
+
+/*背景图片*/
+body {
+    background: url(../img/timg.png) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    @include wh(9rem, 6rem);
+    margin: -2.5rem -4rem;
+    background: rgba(255, 255, 255, .5);
+    text-align: center;
+
+    .font {
+        display: block;
+        margin: .3rem;
+        color: $blue;
+    }
+
+    .user {
+
+        @include flex(center, center);
+        @include wh(80%, .9rem);
+        margin: .4rem auto;
+        background: $white;
+
+        .iphone {
+            @include wh(.4rem, .4rem);
+            margin-left: .3rem;
+            background: url(../img/input.png) no-repeat 0 0;
+
+            &::after {
+                @include name;
+            }
+        }
+
+        input {
+            @include wh(100%, .7rem);
+            margin-left: .5rem;
+            border: none;
+            /*清除点击imput后的边框*/
+            outline: none;
+        }
+    }
+
+    .password {
+        @include flex(center, center);
+        @include wh(80%, .9rem);
+        margin: .4rem auto;
+        background: $white;
+        .lock {
+            @include wh(.4rem, .4rem);
+            margin-left: .3rem;
+            background: url(../img/input.png) no-repeat 0 -35px;
+
+            &::after {
+                @include name;
+            }
+        }
+
+        input {
+            @include wh(100%, .7rem);
+            margin-left: .5rem;
+            border: none;
+            /*清除点击imput后的边框*/
+            outline: none;
+        }
+    }
+    .hint{
+        @include flex (center,center);
+        position: absolute;
+        left: 50%;
+        width: 200px;
+        margin-left: -100px;
+        font-size: 16px;
+        letter-spacing:5px;
+        color: red;
+    }
+
+    button{
+        @include flex(center,center);
+        @include wh(80%,45px);
+        margin: 60px auto 0 auto;
+        background:$blue;
+        font-size: 18px;
+        color: $white;
+        /*字符间距*/
+        letter-spacing:5px;
+        box-shadow: 0 0 0 1px $blue;
+    }
+}
