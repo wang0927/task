@@ -4,6 +4,11 @@
 // var password = document.getElementById("password").value;
 // console.log(password);
 
+
+var input =document.getElementsByTagName("input")[0];
+var hint = document.getElementById("hint");
+var login = document.getElementsByTagName("button")[0];
+
 var user = document.getElementById("user");
 var username; //定义一个用户名变量
 console.log(username)
@@ -23,10 +28,20 @@ psd.onchange = function () {
     password = psd.value;
     console.log(password)
 }
+// 当用户输入时清除提示
+user.onclick = function () {
+    user.placeholder = "";
+    hint.innerText = "";
+}
+// 当用户输入时清除提示
+psd.onclick = function () {
+    psd.placeholder = "";
+    hint.innerText = "";
+}
 
 
-var hint = document.getElementById("hint");
-var login = document.getElementsByTagName("button")[0];
+
+
 
 var xhr = new XMLHttpRequest(); //创建ajax的XHR对象
 
