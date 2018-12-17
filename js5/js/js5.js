@@ -74,7 +74,7 @@ login.onclick = function () {
                         hint.innerText = arr.message;
                     } else if (arr.code == "0" && arr.message == "success") {
                         hint.innerText = "登录成功";
-                        location.href = "../html/js5-1.html"
+                        location.href = "../js5-1.html"
                     }
                 }
             }
